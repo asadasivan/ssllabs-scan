@@ -12,12 +12,13 @@ Python ~2.7
 
 ## Usage
 python SSLScanner.py [options]
+
 | Option  | Description |
-| ------------- | ------------- |
-|-f, --urlfile|File that contains list of host names or IP address|
-|-p, --protocol|Test for SSL or TLS Protocols supported|
-|-c, --cipher|Test for Ciphers supported|
-|-o,--outputfile|File that contains the result of the test|
+| --------| ------------|
+| -f, --urlfile | File that contains list of host names or IP address |
+| -p, --protocol |Test for SSL or TLS Protocols supported |
+| -c, --cipher | Test for Ciphers supported |
+| -o,--outputfile | File that contains the result of the test |
 
 
 ## Getting Help
