@@ -22,7 +22,7 @@ baseOutputFileName = "SSLTestResults"
 baseOutputFileExt = "txt"
 baseURLlistFileName = "hostURL"
 baseURLlistFileExt = "info"
-fileDir = "./Users/arunkumar.sadasivan/Desktop/BV/ssllabs"
+fileDir = "." # modify this paramter to specify the input file. Output file will be created under the same directory. 
 
 
 # This is a helper method that takes the path to the relevant API call and the user-defined payload and requests the data/server test from Qualys SSL Labs. Returns JSON formatted data
