@@ -22,7 +22,7 @@ baseOutputFileName = "SSLTestResults"
 baseOutputFileExt = "txt"
 baseURLlistFileName = "hostURL"
 baseURLlistFileExt = "info"
-fileDir = "/Users/arunkumar.sadasivan/Desktop/BV/ssllabs"
+fileDir = "./Users/arunkumar.sadasivan/Desktop/BV/ssllabs"
 
 
 # This is a helper method that takes the path to the relevant API call and the user-defined payload and requests the data/server test from Qualys SSL Labs. Returns JSON formatted data
@@ -35,7 +35,7 @@ def requestAPI(path, payload={}):
         pass
         #sys.exit(1)
     if response is None:
-        results = "[Error] Failed to establish a connection: Nodename nor servname provided not known"
+        results = "[Error] Failed to establish a connection: Nodename nor server name provided not known"
     else:
         results = response.json()
     return results
